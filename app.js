@@ -8,12 +8,12 @@ const fromEuroToDollar = function(valueInEuro){
 }
 
 const fromDollarToYen = function (valueInDollar) {
-    let valueInYen = (valueInDollar* 127.9);
+    let valueInYen = (valueInDollar* 106.6);
     return valueInYen;
 }
 
 const fromYenToPound = function (valueInYen){
-    let valueInPound = (valueInYen * 0.8);
+    let valueInPound = (valueInYen * 0.006);
     return valueInPound;
 }
 
